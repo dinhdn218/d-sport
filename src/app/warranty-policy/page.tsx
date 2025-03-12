@@ -20,29 +20,29 @@ const WarrantyPolicy = () => {
           className="flex items-center text-sm text-muted-foreground hover:text-primary mb-4"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to home
+          Trở về trang chủ
         </Link>
         <h1 className="text-3xl font-bold tracking-tight mb-2">
-          Warranty & Return Policy
+          Chính Sách Bảo Hành & Đổi Trả
         </h1>
         <p className="text-muted-foreground">
-          Our commitment to quality and customer satisfaction
+          Cam kết của chúng tôi về chất lượng và sự hài lòng của khách hàng
         </p>
       </div>
 
       <Tabs defaultValue="warranty" className="mb-12">
         <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="warranty">Warranty Policy</TabsTrigger>
-          <TabsTrigger value="returns">Return & Exchange</TabsTrigger>
+          <TabsTrigger value="warranty">Chính Sách Bảo Hành</TabsTrigger>
+          <TabsTrigger value="returns">Đổi Trả & Hoàn Tiền</TabsTrigger>
         </TabsList>
         <TabsContent value="warranty" className="mt-6">
           <div className="grid gap-8">
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Warranty Coverage</h2>
+              <h2 className="text-2xl font-semibold mb-4">Phạm Vi Bảo Hành</h2>
               <p className="mb-4">
-                At our Badminton Shop, we stand behind the quality of our
-                products. Our warranty policy is designed to give you peace of
-                mind with your purchase.
+                Tại Cửa Hàng Cầu Lông của chúng tôi, chúng tôi đảm bảo chất
+                lượng sản phẩm. Chính sách bảo hành của chúng tôi được thiết kế
+                để mang lại sự an tâm cho bạn khi mua sắm.
               </p>
 
               <div className="grid gap-6 md:grid-cols-2 mt-8">
@@ -51,88 +51,86 @@ const WarrantyPolicy = () => {
                     <div className="flex items-start gap-4">
                       <ShieldCheck className="h-8 w-8 text-primary mt-1" />
                       <div>
-                        <h3 className="font-semibold text-lg mb-2">Rackets</h3>
-                        <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>
-                            Premium rackets: 24-month warranty against
-                            manufacturing defects
-                          </li>
-                          <li>
-                            Standard rackets: 12-month warranty against
-                            manufacturing defects
-                          </li>
-                          <li>
-                            Frame cracks covered under normal use conditions
-                          </li>
-                          <li>
-                            Warranty void if racket shows signs of impact damage
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="flex items-start gap-4">
-                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
-                      <div>
-                        <h3 className="font-semibold text-lg mb-2">Footwear</h3>
-                        <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>
-                            6-month warranty against manufacturing defects
-                          </li>
-                          <li>Covers sole separation and stitching issues</li>
-                          <li>Normal wear and tear not covered</li>
-                          <li>
-                            Warranty void if shoes are used outside of indoor
-                            courts
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="flex items-start gap-4">
-                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
-                      <div>
-                        <h3 className="font-semibold text-lg mb-2">Apparel</h3>
-                        <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>30-day warranty against manufacturing defects</li>
-                          <li>
-                            Covers seam issues, zipper failures, and fabric
-                            defects
-                          </li>
-                          <li>Color fading from normal washing not covered</li>
-                          <li>Follow care instructions to maintain warranty</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="flex items-start gap-4">
-                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
-                      <div>
                         <h3 className="font-semibold text-lg mb-2">
-                          Accessories
+                          Vợt Cầu Lông
                         </h3>
                         <ul className="list-disc pl-5 space-y-1 text-sm">
                           <li>
-                            Bags: 12-month warranty against manufacturing
-                            defects
+                            Vợt cao cấp: Bảo hành 24 tháng đối với lỗi sản xuất
                           </li>
-                          <li>Strings: No warranty after installation</li>
-                          <li>Grips: No warranty after installation</li>
                           <li>
-                            Other accessories: 30-day warranty against
-                            manufacturing defects
+                            Vợt tiêu chuẩn: Bảo hành 12 tháng đối với lỗi sản
+                            xuất
+                          </li>
+                          <li>
+                            Nứt khung vợt được bảo hành trong điều kiện sử dụng
+                            bình thường
+                          </li>
+                          <li>
+                            Bảo hành mất hiệu lực nếu vợt có dấu hiệu va đập
+                            mạnh
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="pt-6">
+                    <div className="flex items-start gap-4">
+                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
+                      <div>
+                        <h3 className="font-semibold text-lg mb-2">Giày</h3>
+                        <ul className="list-disc pl-5 space-y-1 text-sm">
+                          <li>Bảo hành 6 tháng đối với lỗi sản xuất</li>
+                          <li>Bao gồm lỗi đế tách rời và vấn đề đường may</li>
+                          <li>Không bảo hành đối với hao mòn thông thường</li>
+                          <li>
+                            Bảo hành mất hiệu lực nếu giày được sử dụng ngoài
+                            sân cầu lông trong nhà
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="pt-6">
+                    <div className="flex items-start gap-4">
+                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
+                      <div>
+                        <h3 className="font-semibold text-lg mb-2">Quần Áo</h3>
+                        <ul className="list-disc pl-5 space-y-1 text-sm">
+                          <li>Bảo hành 30 ngày đối với lỗi sản xuất</li>
+                          <li>Bao gồm lỗi đường may, khóa kéo và vải</li>
+                          <li>
+                            Không bảo hành đối với phai màu do giặt thông thường
+                          </li>
+                          <li>
+                            Tuân thủ hướng dẫn chăm sóc để duy trì bảo hành
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="pt-6">
+                    <div className="flex items-start gap-4">
+                      <ShieldCheck className="h-8 w-8 text-primary mt-1" />
+                      <div>
+                        <h3 className="font-semibold text-lg mb-2">Phụ Kiện</h3>
+                        <ul className="list-disc pl-5 space-y-1 text-sm">
+                          <li>
+                            Túi vợt: Bảo hành 12 tháng đối với lỗi sản xuất
+                          </li>
+                          <li>Dây đan: Không bảo hành sau khi lắp đặt</li>
+                          <li>Cuốn cán: Không bảo hành sau khi lắp đặt</li>
+                          <li>
+                            Phụ kiện khác: Bảo hành 30 ngày đối với lỗi sản xuất
                           </li>
                         </ul>
                       </div>
@@ -144,35 +142,35 @@ const WarrantyPolicy = () => {
 
             <div className="mt-6">
               <h2 className="text-2xl font-semibold mb-4">
-                Warranty Claim Process
+                Quy Trình Yêu Cầu Bảo Hành
               </h2>
               <ol className="list-decimal pl-5 space-y-4">
                 <li>
-                  <p className="font-medium">Contact our customer service</p>
+                  <p className="font-medium">Liên hệ với dịch vụ khách hàng</p>
                   <p className="text-sm text-muted-foreground">
-                    Reach out to us via email or phone to report the issue with
-                    your product.
+                    Liên hệ với chúng tôi qua email hoặc điện thoại để báo cáo
+                    vấn đề với sản phẩm của bạn.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Provide proof of purchase</p>
+                  <p className="font-medium">Cung cấp chứng từ mua hàng</p>
                   <p className="text-sm text-muted-foreground">
-                    Submit your receipt or order number to verify the purchase
-                    date and warranty period.
+                    Gửi hóa đơn hoặc mã đơn hàng để xác minh ngày mua và thời
+                    hạn bảo hành.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Product evaluation</p>
+                  <p className="font-medium">Đánh giá sản phẩm</p>
                   <p className="text-sm text-muted-foreground">
-                    Return the product to our store for inspection or send
-                    photos as requested by our team.
+                    Trả lại sản phẩm tại cửa hàng để kiểm tra hoặc gửi hình ảnh
+                    theo yêu cầu của đội ngũ của chúng tôi.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Resolution</p>
+                  <p className="font-medium">Giải quyết</p>
                   <p className="text-sm text-muted-foreground">
-                    Based on the evaluation, we will repair, replace, or issue a
-                    store credit for the defective product.
+                    Dựa trên đánh giá, chúng tôi sẽ sửa chữa, thay thế hoặc cấp
+                    tín dụng cửa hàng cho sản phẩm bị lỗi.
                   </p>
                 </li>
               </ol>
@@ -180,16 +178,19 @@ const WarrantyPolicy = () => {
 
             <div className="mt-6">
               <h2 className="text-2xl font-semibold mb-4">
-                Warranty Exclusions
+                Các Trường Hợp Không Được Bảo Hành
               </h2>
-              <p className="mb-4">Our warranty does not cover:</p>
+              <p className="mb-4">Bảo hành của chúng tôi không bao gồm:</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Damage caused by accidents, misuse, or improper care</li>
-                <li>Normal wear and tear from regular use</li>
-                <li>Products that have been modified or altered</li>
-                <li>Damage from improper storage or transportation</li>
-                <li>Products purchased from unauthorized dealers</li>
-                <li>Cosmetic issues that don&apos;t affect performance</li>
+                <li>
+                  Hư hỏng do tai nạn, sử dụng sai mục đích hoặc chăm sóc không
+                  đúng cách
+                </li>
+                <li>Hao mòn thông thường do sử dụng thường xuyên</li>
+                <li>Sản phẩm đã bị sửa đổi hoặc thay đổi</li>
+                <li>Hư hỏng do bảo quản hoặc vận chuyển không đúng cách</li>
+                <li>Sản phẩm mua từ đại lý không được ủy quyền</li>
+                <li>Vấn đề về mỹ phẩm không ảnh hưởng đến hiệu suất</li>
               </ul>
             </div>
           </div>
@@ -198,11 +199,13 @@ const WarrantyPolicy = () => {
         <TabsContent value="returns" className="mt-6">
           <div className="grid gap-8">
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Return Policy</h2>
+              <h2 className="text-2xl font-semibold mb-4">
+                Chính Sách Đổi Trả
+              </h2>
               <p className="mb-4">
-                We want you to be completely satisfied with your purchase. If
-                you&apos;re not, we offer a straightforward return and exchange
-                policy.
+                Chúng tôi muốn bạn hoàn toàn hài lòng với giao dịch mua hàng của
+                mình. Nếu không, chúng tôi cung cấp chính sách đổi trả và hoàn
+                tiền đơn giản.
               </p>
 
               <div className="grid gap-6 md:grid-cols-2 mt-8">
@@ -212,20 +215,17 @@ const WarrantyPolicy = () => {
                       <RefreshCw className="h-8 w-8 text-primary mt-1" />
                       <div>
                         <h3 className="font-semibold text-lg mb-2">
-                          Return Period
+                          Thời Gian Đổi Trả
                         </h3>
                         <ul className="list-disc pl-5 space-y-1 text-sm">
+                          <li>Sản phẩm chưa sử dụng: 30 ngày kể từ ngày mua</li>
                           <li>
-                            Unused products: 30 days from the date of purchase
+                            Sản phẩm bị lỗi: Báo cáo trong vòng 7 ngày sau khi
+                            nhận
                           </li>
+                          <li>Sản phẩm giảm giá: 14 ngày kể từ ngày mua</li>
                           <li>
-                            Defective products: Report within 7 days of
-                            receiving
-                          </li>
-                          <li>Sale items: 14 days from the date of purchase</li>
-                          <li>
-                            Custom-strung rackets: Non-returnable unless
-                            defective
+                            Vợt đã đan dây: Không được đổi trả trừ khi bị lỗi
                           </li>
                         </ul>
                       </div>
@@ -239,15 +239,18 @@ const WarrantyPolicy = () => {
                       <BadgeCheck className="h-8 w-8 text-primary mt-1" />
                       <div>
                         <h3 className="font-semibold text-lg mb-2">
-                          Return Conditions
+                          Điều Kiện Đổi Trả
                         </h3>
                         <ul className="list-disc pl-5 space-y-1 text-sm">
-                          <li>Product must be in original, unused condition</li>
-                          <li>All tags and packaging must be intact</li>
-                          <li>Receipt or proof of purchase required</li>
                           <li>
-                            Returns without receipt may be eligible for store
-                            credit only
+                            Sản phẩm phải ở trong tình trạng ban đầu, chưa sử
+                            dụng
+                          </li>
+                          <li>Tất cả nhãn và bao bì phải còn nguyên vẹn</li>
+                          <li>Yêu cầu hóa đơn hoặc chứng từ mua hàng</li>
+                          <li>
+                            Đổi trả không có hóa đơn có thể chỉ được hoàn lại
+                            bằng tín dụng cửa hàng
                           </li>
                         </ul>
                       </div>
@@ -261,20 +264,25 @@ const WarrantyPolicy = () => {
                       <Truck className="h-8 w-8 text-primary mt-1" />
                       <div>
                         <h3 className="font-semibold text-lg mb-2">
-                          Return Shipping
+                          Vận Chuyển Đổi Trả
                         </h3>
                         <ul className="list-disc pl-5 space-y-1 text-sm">
                           <li>
-                            Return shipping costs are the responsibility of the
-                            customer
+                            Chi phí vận chuyển đổi trả do khách hàng chịu trách
+                            nhiệm
                           </li>
                           <li>
-                            Defective items: We cover return shipping costs
+                            Sản phẩm bị lỗi: Chúng tôi chi trả chi phí vận
+                            chuyển đổi trả
                           </li>
                           <li>
-                            Wrong items shipped: We cover return shipping costs
+                            Gửi sai sản phẩm: Chúng tôi chi trả chi phí vận
+                            chuyển đổi trả
                           </li>
-                          <li>Use tracked shipping method for all returns</li>
+                          <li>
+                            Sử dụng phương thức vận chuyển có theo dõi cho tất
+                            cả các đổi trả
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -287,18 +295,18 @@ const WarrantyPolicy = () => {
                       <RefreshCw className="h-8 w-8 text-primary mt-1" />
                       <div>
                         <h3 className="font-semibold text-lg mb-2">
-                          Refund Process
+                          Quy Trình Hoàn Tiền
                         </h3>
                         <ul className="list-disc pl-5 space-y-1 text-sm">
                           <li>
-                            Refunds processed within 7 business days after
-                            receiving return
+                            Hoàn tiền được xử lý trong vòng 7 ngày làm việc sau
+                            khi nhận đổi trả
                           </li>
-                          <li>Original payment method will be refunded</li>
-                          <li>Shipping costs are non-refundable</li>
+                          <li>Hoàn tiền vào phương thức thanh toán ban đầu</li>
+                          <li>Chi phí vận chuyển không được hoàn lại</li>
                           <li>
-                            Store credit option available for returns without
-                            receipt
+                            Tùy chọn tín dụng cửa hàng có sẵn cho đổi trả không
+                            có hóa đơn
                           </li>
                         </ul>
                       </div>
@@ -309,35 +317,38 @@ const WarrantyPolicy = () => {
             </div>
 
             <div className="mt-6">
-              <h2 className="text-2xl font-semibold mb-4">Exchange Process</h2>
+              <h2 className="text-2xl font-semibold mb-4">
+                Quy Trình Đổi Hàng
+              </h2>
               <ol className="list-decimal pl-5 space-y-4">
                 <li>
-                  <p className="font-medium">Contact our customer service</p>
+                  <p className="font-medium">Liên hệ với dịch vụ khách hàng</p>
                   <p className="text-sm text-muted-foreground">
-                    Let us know you want to exchange an item and specify the
-                    replacement.
+                    Cho chúng tôi biết bạn muốn đổi một sản phẩm và chỉ rõ sản
+                    phẩm thay thế.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Return the original item</p>
+                  <p className="font-medium">Trả lại sản phẩm ban đầu</p>
                   <p className="text-sm text-muted-foreground">
-                    Follow our return process to send back the original
-                    purchase.
+                    Làm theo quy trình đổi trả của chúng tôi để gửi lại sản phẩm
+                    mua ban đầu.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Price difference</p>
+                  <p className="font-medium">Chênh lệch giá</p>
                   <p className="text-sm text-muted-foreground">
-                    If the replacement item costs more, you&apos;ll need to pay
-                    the difference. If it costs less, we&apos;ll refund the
-                    difference.
+                    Nếu sản phẩm thay thế có giá cao hơn, bạn sẽ cần thanh toán
+                    phần chênh lệch. Nếu giá thấp hơn, chúng tôi sẽ hoàn lại
+                    phần chênh lệch.
                   </p>
                 </li>
                 <li>
-                  <p className="font-medium">Shipping for exchanges</p>
+                  <p className="font-medium">Vận chuyển cho đổi hàng</p>
                   <p className="text-sm text-muted-foreground">
-                    Customer is responsible for return shipping. We&apos;ll ship
-                    the replacement item at our cost.
+                    Khách hàng chịu trách nhiệm cho việc vận chuyển trả lại.
+                    Chúng tôi sẽ vận chuyển sản phẩm thay thế với chi phí của
+                    chúng tôi.
                   </p>
                 </li>
               </ol>
@@ -345,19 +356,24 @@ const WarrantyPolicy = () => {
 
             <div className="mt-6">
               <h2 className="text-2xl font-semibold mb-4">
-                Non-Returnable Items
+                Sản Phẩm Không Được Đổi Trả
               </h2>
               <p className="mb-4">
-                The following items cannot be returned or exchanged:
+                Các sản phẩm sau không thể được đổi trả hoặc hoàn tiền:
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Used or worn products (except for defective items)</li>
-                <li>Products without original packaging or tags</li>
-                <li>Racket strings after installation</li>
-                <li>Grip tapes after installation</li>
-                <li>Personal items like socks and underwear</li>
-                <li>Clearance items marked as &quot;Final Sale&quot;</li>
-                <li>Gift cards and store credits</li>
+                <li>
+                  Sản phẩm đã qua sử dụng hoặc đã mặc (trừ các sản phẩm bị lỗi)
+                </li>
+                <li>Sản phẩm không có bao bì hoặc nhãn gốc</li>
+                <li>Dây vợt sau khi lắp đặt</li>
+                <li>Cuốn cán sau khi lắp đặt</li>
+                <li>Các vật dụng cá nhân như tất và đồ lót</li>
+                <li>
+                  Các sản phẩm giảm giá được đánh dấu là &quot;Bán Cuối
+                  Cùng&quot;
+                </li>
+                <li>Thẻ quà tặng và tín dụng cửa hàng</li>
               </ul>
             </div>
           </div>
@@ -365,26 +381,25 @@ const WarrantyPolicy = () => {
       </Tabs>
 
       <div className="bg-muted p-6 rounded-lg mt-8">
-        <h2 className="text-xl font-semibold mb-4">Need Help?</h2>
+        <h2 className="text-xl font-semibold mb-4">Cần Hỗ Trợ?</h2>
         <p className="mb-4">
-          If you have any questions about our warranty or return policy, please
-          contact our customer service team:
+          Nếu bạn có bất kỳ câu hỏi nào về chính sách bảo hành hoặc đổi trả của
+          chúng tôi, vui lòng liên hệ với đội ngũ dịch vụ khách hàng:
         </p>
         <div className="grid gap-2">
           <p>
-            <span className="font-medium">Email:</span>{" "}
-            support@badmintonshop.com
+            <span className="font-medium">Email:</span> hotro@cuahangcaulong.com
           </p>
           <p>
-            <span className="font-medium">Phone:</span> (123) 456-7890
+            <span className="font-medium">Điện thoại:</span> (028) 456-7890
           </p>
           <p>
-            <span className="font-medium">Store Hours:</span> Monday-Saturday,
-            10:00 AM - 7:00 PM
+            <span className="font-medium">Giờ làm việc:</span> Thứ 2-Thứ 7,
+            10:00 - 19:00
           </p>
         </div>
         <div className="mt-6">
-          <Button>Contact Customer Service</Button>
+          <Button>Liên Hệ Dịch Vụ Khách Hàng</Button>
         </div>
       </div>
     </div>
