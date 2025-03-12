@@ -8,6 +8,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import Link from "next/link";
 
 const HeaderDropdownMenu = () => {
   return (
@@ -16,10 +17,10 @@ const HeaderDropdownMenu = () => {
         <DropdownMenuTrigger className="flex items-center">
           <RxDragHandleHorizontal className="cursor-pointer" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent>
+        <DropdownMenuContent align="end">
           <div className="block lg:hidden">
             <DropdownMenuItem className="font-semibold">
-              TẤT CẢ SẢN PHẨM
+              <Link href={"/products"}>SẢN PHẨM</Link>
             </DropdownMenuItem>
             <DropdownMenuSeparator />
           </div>
