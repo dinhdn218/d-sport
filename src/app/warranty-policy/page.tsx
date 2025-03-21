@@ -13,7 +13,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const WarrantyPolicy = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-0 py-8 w-full">
+    <div className="">
       <div className="mb-8">
         <Link
           href="/"

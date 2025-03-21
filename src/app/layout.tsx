@@ -20,11 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" suppressHydrationWarning>
-      <body className={`${quickSand.className} antialiased`}>
+    <html lang="vi" suppressHydrationWarning className="overflow-x-hidden">
+      <body className={`${quickSand.className} antialiased min-w-screen`}>
         <div className="min-h-screen flex flex-col justify-between">
           <Header />
-          <main className="mt-24">{children}</main>
+          <main className="mt-24 container mx-auto px-4 sm:px-0 py-8 w-full">
+            {children}
+          </main>
           <Footer />
         </div>
       </body>

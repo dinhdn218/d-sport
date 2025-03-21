@@ -13,7 +13,7 @@ import Link from "next/link";
 const HeaderDropdownMenu = () => {
   return (
     <div>
-      <DropdownMenu>
+      <DropdownMenu modal={false}>
         <DropdownMenuTrigger className="flex items-center">
           <RxDragHandleHorizontal className="cursor-pointer" />
         </DropdownMenuTrigger>

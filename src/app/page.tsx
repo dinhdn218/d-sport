@@ -14,7 +14,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 sm:px-0 py-8 w-full">
+    <div className="">
       {/* Hero Section */}
       <section className="relative">
         <Carousel className="w-full">

@@ -41,7 +41,7 @@ import { Slider } from "@/components/ui/slider";
 
 const Products = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-0 py-8 w-full">
+    <div className="">
       {/* Hero Banner */}
       <div className="bg-muted py-6">
         <div className="container px-4">
